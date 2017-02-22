@@ -8,9 +8,7 @@ const path = require('path');
  */
 const config = {
     entry: {
-        'dist/pad': './src/pad.ts',
-        'dist/repeat': './src/repeat.ts',
-        'dist/reverse': './src/reverse.ts'
+        'dist/number': './src/number.ts'
     },
 
     output: {

@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "3.0.0",
-  "description": "Boilerplate project for using TypeScript, Webpack, Karma and Jasmine",
+  "name": "number",
+  "version": "1.0.0",
+  "description": "Number",
   "main": "index.js",
   "directories": {},
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joppe/boilerplate.git"
+    "url": "git+https://github.com/joppe/number.git"
   },
   "author": {
     "name": "Joppe Aarts",
@@ -17,16 +17,15 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joppe/boilerplate/issues"
+    "url": "https://github.com/joppe/number/issues"
   },
-  "homepage": "https://github.com/joppe/boilerplate#readme",
+  "homepage": "https://github.com/joppe/number#readme",
   "keywords": [
     "karma",
     "typescript",
     "webpack",
     "javascript",
-    "testing",
-    "boilerplate",
+    "number",
     "karma-webpack",
     "jasmine"
   ],
