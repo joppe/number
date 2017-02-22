@@ -8,7 +8,7 @@ const path = require('path');
  */
 const config = {
     entry: {
-        'dist/number': './src/number.ts'
+        'dist/format': './src/format.ts'
     },
 
     output: {
@@ -30,6 +30,7 @@ const config = {
      * See: http://webpack.github.io/docs/configuration.html#resolve
      */
     resolve: {
+        modules: [path.resolve(__dirname), 'node_modules'],
 
         /**
          * An array of extensions that should be used to resolve modules.
@@ -63,8 +64,6 @@ const config = {
 
             /**
              * Typescript loader support for .ts
-             *
-             * See: https://github.com/s-panferov/awesome-typescript-loader
              */
             {
                 test: /\.(t|j)sx?$/,

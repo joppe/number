@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
-        "declaration": true,
-        "declarationDir": "dist",
+        "baseUrl": "./",
         "module": "commonjs",
         "outDir": "dist",
         "removeComments": true,
