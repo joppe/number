@@ -1,4 +1,4 @@
-import * as string from '../node_modules/string/src/reverse';
+import * as string from 'node_modules/string/dist/reverse';
 
 const THREE_DIGITS:RegExp = /(\d{3})/g;
 
