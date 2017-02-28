@@ -5,11 +5,16 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "outDir": "dist",
+        "paths": {
+            "string/*": [
+                "node_modules/string/dist/*"
+            ]
+        },
         "removeComments": true,
         "sourceMap": true,
-        "target": "es5"
+        "target": "es6"
     },
     "include": [
-        "src/format.ts"
+        "src/**/*"
     ]
 }

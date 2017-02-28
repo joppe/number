@@ -7,9 +7,7 @@ const path = require('path');
  * See: http://webpack.github.io/docs/configuration.html#cli
  */
 const config = {
-    entry: {
-        'dist/format': './src/format.ts'
-    },
+    entry: {},
 
     output: {
         filename: '[name].js',
