@@ -46,10 +46,10 @@
     "tslib": "^1.5.0",
     "tslint": "^4.4.2",
     "tslint-rules": "git+https://github.com/joppe/tslint.git#1.0.0",
-    "typescript": "^2.1.5",
+    "typescript": "^2.2.1",
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "string": "git+ssh://git@github.com/joppe/string.git#1.1.0"
+    "string": "git+ssh://git@github.com/joppe/string.git#1.2.0"
   }
 }
