@@ -28,6 +28,10 @@ const config = {
      * See: http://webpack.github.io/docs/configuration.html#resolve
      */
     resolve: {
+        alias: {
+            string: path.resolve(__dirname, 'node_modules/string/src/')
+        },
+
         /**
          * An array of extensions that should be used to resolve modules.
          *
