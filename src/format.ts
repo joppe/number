@@ -20,9 +20,9 @@ export interface FormatFunctionInterface {
  * Format a number with decimal separator and thousands grouping separator
  *
  * @param {string} input
- * @param {number} decimalCount
- * @param {string} decimalPoint
- * @param {string} thousandsSeperator
+ * @param {number} [decimalCount=2]
+ * @param {string} [decimalPoint='.']
+ * @param {string} [thousandsSeperator=',']
  * @returns {string}
  */
 export const format:FormatFunctionInterface = (input:number, decimalCount:number = 2, decimalPoint:string = '.', thousandsSeperator:string = ','):string => {
