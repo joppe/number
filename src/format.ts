@@ -3,9 +3,9 @@ import * as string from 'string/reverse';
 const THREE_DIGITS:RegExp = /(\d{3})/g;
 
 /**
- * @interface NumberFormatFunctionInterface
+ * @interface FormatFunctionInterface
  */
-export interface NumberFormatFunctionInterface {
+export interface FormatFunctionInterface {
     /**
      * @param {string} input
      * @param {number} decimalCount
@@ -17,13 +17,15 @@ export interface NumberFormatFunctionInterface {
 }
 
 /**
+ * Format a number with decimal separator and thousands grouping separator
+ *
  * @param {string} input
  * @param {number} decimalCount
  * @param {string} decimalPoint
  * @param {string} thousandsSeperator
  * @returns {string}
  */
-export const numberFormat:NumberFormatFunctionInterface = (input:number, decimalCount:number = 2, decimalPoint:string = '.', thousandsSeperator:string = ','):string => {
+export const format:FormatFunctionInterface = (input:number, decimalCount:number = 2, decimalPoint:string = '.', thousandsSeperator:string = ','):string => {
     // Cast the number to a string with the desired decimals
     const str:string = input.toFixed(decimalCount);
 

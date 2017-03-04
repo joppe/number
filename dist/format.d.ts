@@ -1,4 +1,4 @@
-export interface NumberFormatFunctionInterface {
+export interface FormatFunctionInterface {
     (input: number, decimalCount?: number, decimalPoint?: string, thousandsSeperator?: string): string;
 }
-export declare const numberFormat: NumberFormatFunctionInterface;
+export declare const format: FormatFunctionInterface;

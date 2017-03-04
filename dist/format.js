@@ -1,7 +1,8 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const string = require("string/reverse");
 const THREE_DIGITS = /(\d{3})/g;
-exports.numberFormat = (input, decimalCount = 2, decimalPoint = '.', thousandsSeperator = ',') => {
+exports.format = (input, decimalCount = 2, decimalPoint = '.', thousandsSeperator = ',') => {
     const str = input.toFixed(decimalCount);
     const [integer, fraction] = str.split('.');
     let output = '';
