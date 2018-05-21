@@ -1,7 +1,7 @@
-import {format} from '../../src/format';
+import { format } from '../../src/format';
 
-describe('form', ():void => {
-    it('format any number', ():void => {
+describe('form', (): void => {
+    it('format any number', (): void => {
         expect(format(2.12324, 2, '@', '#')).toBe('2@12');
         expect(format(1222.12324, 2, '@', '#')).toBe('1#222@12');
         expect(format(12343452, 2, '.', '')).toBe('12343452.00');
