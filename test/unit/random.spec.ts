@@ -10,4 +10,14 @@ describe('random', (): void => {
             expect(value).toBeLessThanOrEqual(45);
         }
     });
+
+    it('Throw an error when max is not greater than min', (): void => {
+        expect((): void => {
+            random(5, 5);
+        }).toThrow();
+
+        expect((): void => {
+            random(34, 1);
+        }).toThrow();
+    });
 });
