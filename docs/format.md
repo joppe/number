@@ -1,4 +1,4 @@
-# Format
+# format
 
 Format a number with decimal separator and thousands grouping separator. The function accepts three arguments:
 
@@ -9,12 +9,12 @@ Format a number with decimal separator and thousands grouping separator. The fun
 
 ## Definition:
 ```typescript
-format(input:number, decimalCount?:number, decimalPoint?:string, thousandsSeperator?:string):string
+format(input: number, decimalCount?: number, decimalPoint?: string, thousandsSeperator?: string): string;
 ```
 
 ## Usage:
 ```javascript
-import * as number from 'dist/format';
+import { format } from 'dist/format';
 
 const input = 2747.6323434;
 const output = format(input);
