@@ -11,10 +11,10 @@ describe('random', (): void => {
         }
     });
 
-    it('Throw an error when max is not greater than min', (): void => {
+    it('Throw an error when max is not greater or equal than min', (): void => {
         expect((): void => {
             random(5, 5);
-        }).toThrow();
+        }).not.toThrow();
 
         expect((): void => {
             random(34, 1);
