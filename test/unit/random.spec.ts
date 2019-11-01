@@ -1,4 +1,4 @@
-import { random } from '../../src/random';
+import { random } from '@apestaartje/number/random';
 
 describe('random', (): void => {
     it('Generates a random integer value greater or equal than min and less or equal than max', (): void => {

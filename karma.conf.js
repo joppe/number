@@ -53,10 +53,15 @@ module.exports = function (config) {
                 }
             },
             compilerOptions: {
-                module: 'commonjs'
+                module: 'commonjs',
+                paths: {
+                    "@apestaartje/number/*": [
+                        "./src/*"
+                    ]
+                },
+                sourceMap: true
             },
             tsconfig: './tsconfig.json'
-
         },
 
         port: 9876,

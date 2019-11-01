@@ -9,5 +9,5 @@ export * from './rand';
 export * from './random';
 
 export {
-  range
+    range,
 };

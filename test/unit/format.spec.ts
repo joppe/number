@@ -1,4 +1,4 @@
-import { format } from '../../src/format';
+import { format } from '@apestaartje/number/format';
 
 describe('form', (): void => {
     it('format any number', (): void => {

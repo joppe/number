@@ -10,8 +10,8 @@ export const format: FormatFunction = (input: number, decimalCount: number = 2, 
     const str: string = input.toFixed(decimalCount);
 
     // Split the number in a integer and a fraction part
-    const [integer, fraction]: Array<string> = str.split('.');
-    const output: Array<string> = [];
+    const [integer, fraction]: string[] = str.split('.');
+    const output: string[] = [];
     const length: number = integer.length;
     const rest: number = length % 3;
 

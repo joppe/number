@@ -1,4 +1,4 @@
-import { rand } from '../../src/rand';
+import { rand } from '@apestaartje/number/rand';
 
 describe('rand', (): void => {
     it('Generate a random float greater or eqaul than 0 and less or equal than 1', () : void => {
